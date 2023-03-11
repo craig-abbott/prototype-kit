@@ -1,0 +1,100 @@
+---
+layout: layouts/base/template.njk
+title: Dashboards
+---
+{%- block content -%}
+
+<h1>Dashboards</h1>
+
+<strong class="font-size-!--1">
+	DEFAULT
+</strong>
+
+<hr>
+
+<div class="grid">
+	<div href="#" class="card">
+		<div class="card__header">
+			<img src="/images/dashboards/overview.png">
+		</div>
+
+		<div class="card__content">
+			<h2>Overview</h2>
+			<p>
+				Summary of your security environment activity, including alerts, 
+				events, recent items, and a news feed!
+			</p>
+		</div>
+	</div>
+
+	<div href="#" class="card">
+		<div class="card__header">
+			<img src="/images/dashboards/detection.png">
+		</div>
+
+		<div class="card__content">
+			<h2>Detection and Response</h2>
+			<p>
+				Information about your Alerts and Cases within the Security 
+				Solution, including Hosts and Users with Alerts.
+			</p>
+		</div>
+	</div>
+
+	<div href="#" class="card">
+		<div class="card__header">
+			<img src="/images/dashboards/kubernetes.png">
+		</div>
+
+		<div class="card__content">
+			<h2>Kubernetes</h2>
+			<p>
+				Provides interactive visualizations of your Kubernetes workload 
+				and session data.
+			</p>
+		</div>
+	</div>
+
+	<div href="#" class="card">
+		<div class="card__header">
+			<img src="/images/dashboards/cloud-security.png">
+		</div>
+
+		<div class="card__content">
+			<h2>Cloud Security Posture</h2>
+			<p>
+				An overview of findings across all CSP integrations.
+			</p>
+		</div>
+	</div>
+
+	<div href="#" class="card">
+		<div class="card__header">
+			<img src="/images/dashboards/entity-analytics.png">
+		</div>
+
+		<div class="card__content">
+			<h2>Entity Analytics</h2>
+			<p>
+				Entity analytics, notable anomalies, and threats to narrow down 
+				the monitoring surface area.
+			</p>
+		</div>
+	</div>
+
+	<div href="#" class="card">
+		<div class="card__header">
+			<img src="/images/dashboards/data-quality.png">
+		</div>
+
+		<div class="card__content">
+			<h2>Data Quality</h2>
+			<p>
+				Check index mappings and values for compatibility with the Elastic 
+				Common Schema (ECS).
+			</p>
+		</div>
+	</div>
+</div>
+
+{%- endblock -%}

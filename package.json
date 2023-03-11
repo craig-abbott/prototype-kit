@@ -1,0 +1,38 @@
+{
+  "name": "elastic-prototype-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app/server/start.mjs",
+    "dev": "node src/dev/launch.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "gray-matter": "^4.0.3",
+    "html-minifier": "^4.0.0",
+    "nunjucks": "^3.2.3",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.28.3",
+    "colors": "^1.4.0",
+    "cssnano": "^5.1.15",
+    "cssnano-preset-lite": "^2.1.3",
+    "fs-jetpack": "^5.1.0",
+    "node-watch": "^0.7.3",
+    "nodemon": "^2.0.21",
+    "postcss": "^8.4.21",
+    "sass": "^1.58.3",
+    "standard": "^17.0.0",
+    "webpack": "^5.76.0"
+  }
+}

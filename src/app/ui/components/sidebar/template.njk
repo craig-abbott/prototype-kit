@@ -1,0 +1,46 @@
+<div class="sidebar">
+	<div class="sidebar__header">
+		<div class="logo">
+			{%- include 'images/svg/logo-security.svg' -%}
+		</div>
+		<strong>Security </strong>
+	</div>
+
+	<ul class="sidebar__nav">
+		<li>
+			<a {{'class=current' if page.url === '/dashboards/'}} href="/dashboards">
+				Dashboards
+			</a>
+		</li>
+		<li>
+			<a {{'class=current' if page.url === '/alerts/'}} href="/alerts">
+				Alerts
+			</a>
+		</li>
+		<li>
+			<a {{'class=current' if page.url === '/findings/'}} href="/findings">
+				Findings
+			</a>
+		</li>
+		<li>
+			<a {{'class=current' if page.url === '/timelines/'}} href="/timelines">
+				Timelines
+			</a>
+		</li>
+		<li>
+			<a {{'class=current' if page.url === '/cases/'}} href="/cases">
+				Cases
+			</a>
+		</li>
+		<li>
+			<a {{'class=current' if page.url === '/explore/'}} href="/explore">
+				Explore
+			</a>
+		</li>
+		<li>
+			<a {{'class=current' if page.url === '/intelligence/'}} href="/intelligence">
+				Intelligence
+			</a>
+		</li>
+	</ul>
+</div>

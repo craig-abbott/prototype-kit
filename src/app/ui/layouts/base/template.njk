@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{page.title}} - Elastic Prototype Kit</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      {%- include 'components/header/template.njk' -%}
+
+      <div class="with-sidebar">
+        {%- include 'components/sidebar/template.njk' -%}
+
+        <div class="not-sidebar">
+          {%- block content -%}{%- endblock -%}
+        </div>
+      </div>
+    </div>
+    <script src="/javascripts/bundle.min.js"></script>
+  </body>
+</html>
